@@ -89,7 +89,3 @@ Projeto_Final_PW/
 ├── docs/ # Documentação e diagramas
 ├── tests/ # Testes automatizados
 └── README.md # Documentação do projeto
-
-yaml
-Copiar
-Editar
