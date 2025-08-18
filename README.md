@@ -1,3 +1,5 @@
+# MintTrust
+
 # 💼 Sistema de Gerenciamento Bancário
 
 Um sistema completo para gerenciamento de **contas bancárias**, **clientes** e **operações financeiras básicas**, desenvolvido como parte de um trabalho acadêmico com foco em **boas práticas de desenvolvimento web**, **testes** e **documentação**.
@@ -29,8 +31,8 @@ Desenvolver uma aplicação web que permita o cadastro, gerenciamento e operaç�
 | 🔥 Alta    | Criação de Contas          | Conta vinculada a um cliente               |
 | 🔥 Alta    | Transferências Internas    | Entre contas do próprio sistema            |
 | 🔥 Alta    | Saque e Deposito           | sacar e depositar dinheiro                 |
-| 🔥 Alta    | Fechar a Conta             | Finalizar a Conta do Cliente               |
 | 🔥 Alta    | Consulta de Extrato        | Histórico de transações                    |
+| ⚙️ Média   | fecha a conta              | Finalizar a Conta do Cliente               |
 | ⚙️ Média   | Atualização de Dados       | Alterar informações do cliente             |
 | ⭐ Baixa   | Exclusão de Contas Inativas| Remoção de contas sem movimentação         |
 | ⭐ Baixa   | Transferências Externas    | Entra em contato com contas externas       |
@@ -79,7 +81,9 @@ Desenvolver uma aplicação web que permita o cadastro, gerenciamento e operaç�
 | **PUT**    | `/clients/:id`  | Atualização total do cliente          |
 | **PATCH**  | `/clients/:id`  | Atualização parcial (ex.: e-mail)     |
 | **DELETE** | `/accounts/:id` | Deletar conta bancária                |
-
+| **GET**    | `/statement/:id`| acessar o extrato                     |
+| **POST**   | `/deposit/:id`      | Depositar dinheiro                    |
+| **POST     | `/withdraw/:id`     | Sacar dinheiro                        |
 ---
 
 ## 📂 Estrutura do Projeto
@@ -88,4 +92,4 @@ Projeto_Final_PW/
 ├── frontend/ # Código do cliente (Next.js)
 ├── docs/ # Documentação e diagramas
 ├── tests/ # Testes automatizados
-└── README.md # Documentação do projeto
+└── README.md # Documentação do projeto 
