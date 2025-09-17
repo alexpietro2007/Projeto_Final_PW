@@ -29,10 +29,10 @@ Desenvolver uma aplicação web que permita o cadastro, gerenciamento e operaç�
 |------------|---------------------------|--------------------------------------------|
 | 🔥 Alta    | Cadastro de Clientes       | Nome, CPF, e-mail, etc.                    |
 | 🔥 Alta    | Criação de Contas          | Conta vinculada a um cliente               |
-| 🔥 Alta    | Transferências Internas    | Entre contas do próprio sistema            |
 | 🔥 Alta    | Saque e Deposito           | sacar e depositar dinheiro                 |
 | 🔥 Alta    | Consulta de Extrato        | Histórico de transações                    |
 | ⚙️ Média   | fecha a conta              | Finalizar a Conta do Cliente               |
+| ⚙️ Média  | Transferências Internas    | Entre contas do próprio sistema            | 
 | ⚙️ Média   | Atualização de Dados       | Alterar informações do cliente             |
 | ⭐ Baixa   | Exclusão de Contas Inativas| Remoção de contas sem movimentação         |
 | ⭐ Baixa   | Transferências Externas    | Entra em contato com contas externas       |
